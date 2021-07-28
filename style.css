@@ -19,3 +19,12 @@ header nav .menu li {
 header nav .menu a {
   color: white;
 }
+
+.hero {
+  text-align: center;
+  padding: 5% 0;
+}
+
+.deckofCards {
+  background-color: #eee;
+}

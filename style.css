@@ -33,11 +33,14 @@ header nav .menu a {
   display: flex;
   /*   grid-template-columns: repeat(3, 1fr); */
   flex-wrap: wrap;
+      margin: 1rem -.75rem 0;
 }
 .deckofCards .cardDIV {
   background-color: #fff;
   border: 1px solid #000;
+   flex: 0 0 auto;
     width: 30%;
+      max-width: 100%;
 }
 .deckofCards .cardDIV p {
   margin: 0;

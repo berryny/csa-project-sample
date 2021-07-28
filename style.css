@@ -32,15 +32,12 @@ header nav .menu a {
   background-color: #eee;
   display: flex;
   /*   grid-template-columns: repeat(3, 1fr); */
-  /*       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) ) ; */
   flex-wrap: wrap;
-  grid-gap: 1em;
-  padding: 1%;
 }
 .deckofCards .cardDIV {
   background-color: #fff;
   border: 1px solid #000;
-  flex-base: 50%;
+    width: 30%;
 }
 .deckofCards .cardDIV p {
   margin: 0;

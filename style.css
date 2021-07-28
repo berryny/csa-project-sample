@@ -1,0 +1,21 @@
+body{
+  color: #444;  
+}
+a {
+  text-decoration: none;
+}
+header nav {
+  background-color: #000;
+  margin-bottom: 1%;
+}
+header nav .menu {
+  margin: 0;
+  padding: 1%;
+}
+header nav .menu li {
+  display: inline;
+  margin-right: 1em;
+}
+header nav .menu a {
+  color: white;
+}

@@ -4,6 +4,9 @@ body{
 a {
   text-decoration: none;
 }
+img {
+  display: block
+}
 header nav {
   background-color: #000;
   margin-bottom: 1%;
@@ -27,4 +30,11 @@ header nav .menu a {
 
 .deckofCards {
   background-color: #eee;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  padding: 1%;
+}
+.deckofCards .cardDIV img {
+  
 }

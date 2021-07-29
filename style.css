@@ -30,19 +30,16 @@ header nav .menu a {
   text-align: center;
   padding: 5% 0;
 }
-/* 
 .deckofCards {
   background-color: #eee;
-  display: flex;
-  flex-wrap: wrap;
   padding: 1em;
+  color: #444;
 }
 .deckofCards .cardDIV {
   background-color: #fff;
   border: 1px solid #000;
-    width: 30%;
-  margin: 0 1em 1em 1em;
 }
+
 .deckofCards .cardDIV p {
   margin: 0;
   padding: 5%;
@@ -50,11 +47,23 @@ header nav .menu a {
 .deckofCards .cardDIV img {
   width: 100%;
 }
- */
+
+/* Flex */
+
 .deckofCards {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
-    background-color: #fff;
-    color: #444;
-  }
+  display: flex;
+  flex-wrap: wrap;
+}
+.deckofCards .cardDIV {
+  width: 30%;
+  margin: 0 1em 1em 1em;
+}
+
+
+/*  Grid */
+/* .deckofCards {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(3, 1fr);
+}
+ */

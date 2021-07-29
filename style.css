@@ -32,7 +32,7 @@ header nav .menu a {
 }
 .deckofCards {
   background-color: #eee;
-  padding: 1em;
+  padding: 1% 3%;
   color: #444;
 }
 .deckofCards .cardDIV {
@@ -42,7 +42,7 @@ header nav .menu a {
 
 .deckofCards .cardDIV p {
   margin: 0;
-  padding: 5%;
+  padding: 3% 5%;
 }
 .deckofCards .cardDIV img {
   width: 100%;
@@ -53,12 +53,12 @@ header nav .menu a {
 .deckofCards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .deckofCards .cardDIV {
   width: 30%;
-  margin: 0 1em 1em 1em;
+  margin-bottom: 1em;
 }
-
 
 /*  Grid */
 /* .deckofCards {

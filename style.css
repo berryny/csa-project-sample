@@ -33,7 +33,13 @@ header nav .menu a:hover {
 
 .hero {
   text-align: center;
-  padding: 5% 0;
+  padding: 5% 0; /* top/bottom 5% right/left 0 */
+  color: white;
+  height: 100vh;
+  background-image: url("https://picsum.photos/id/1004/800");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-positon: center;
 }
 .deckofCards {
   background-color: #eee;

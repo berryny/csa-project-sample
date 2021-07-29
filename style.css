@@ -59,8 +59,11 @@ header nav .menu a:hover {
   width: 100%;
 }
 
-/* Flex */
-
+/* Flexbox */
+/* 
+A Complete Guide to Flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/     
+ */
 .deckofCards {
   display: flex;
   flex-wrap: wrap;
@@ -72,6 +75,11 @@ header nav .menu a:hover {
 }
 
 /*  Grid */
+/* 
+Grid by Example
+Everything you need to learn CSS Grid Layout
+https://gridbyexample.com/
+*/
 /* .deckofCards {
   display: grid;
   grid-gap: 1em;

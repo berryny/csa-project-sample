@@ -86,3 +86,12 @@ https://gridbyexample.com/
   grid-template-columns: repeat(3, 1fr);
 }
  */
+
+.subscriptionBtn ul {
+  margin: 0 auto;
+}
+.subscriptionBtn ul li {
+    list-style: none;
+  display: inline;
+}
+  

@@ -1,5 +1,7 @@
 body {
   color: #444;
+    font-family: "Montserrat Alternates", sans-serif;
+
 }
 a {
   text-decoration: none;
@@ -90,16 +92,21 @@ https://gridbyexample.com/
 
 .subscriptionBtn {
   text-align: center;
-  font-size: 16px;
+  font-size: 1em;
   background-color: white;
+  margin-top: 2em;
 }
 .subscriptionBtn .btn {
+  display: inline-block;
   color: black;
   text-decoration: none;
   padding: 16px;
   border: 2px solid #008CBA;
+  margin-right:2em;
 }
-
+.subscriptionBtn .btn:last-child {
+  margin-right: 0;
+}
 .subscriptionBtn .btn:hover {
   background-color: #008CBA;
   color: white;

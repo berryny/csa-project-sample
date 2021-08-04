@@ -113,6 +113,14 @@ https://gridbyexample.com/
 }
  */
 
+.grid-deckofcards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 200px;
+  /* grid-gap: 1em; */
+  grid-row-gap: 2em;
+  grid-column-gap: 1em;
+}
+
 /*
 Media Query CSS - Responsive Control
 https://www.w3schools.com/cssref/css3_pr_mediaquery.asp

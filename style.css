@@ -112,3 +112,19 @@ https://gridbyexample.com/
   color: white;
 }
  */
+
+/*
+Media Query CSS - Responsive Control
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: red;
+  }
+  .deckofCards {
+    flex-direction: column-reverse;
+  }
+  .deckofCards .cardDIV {
+    width: 100%;
+  }
+}

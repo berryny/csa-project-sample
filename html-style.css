@@ -1,3 +1,7 @@
+:root {
+  --color-yellow: #e7f120;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -35,7 +39,7 @@ header nav .menu a {
   color: white;
 }
 header nav .menu a:hover {
-  color: yellow;
+  color: var(--color-yellow);
 }
 
 .hero {
@@ -48,14 +52,14 @@ header nav .menu a:hover {
   background-size: cover;
   background-positon: center; */
 }
-
 div {
-  background-color: yellow;
+  background-color: var(--color-yellow);
 }
+/* 
 #content div {
   background-color: purple;
 }
-
+ */
 /* Custom Row/Column */
 .deckofCards {
   background-color: #eee;
@@ -111,6 +115,26 @@ https://gridbyexample.com/
   grid-column-gap: 1em;
 }
 
+
+
+/* Flexbox parent/child */
+.flexbox-parent {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+.flexbox-parent .flex-item {
+  margin-bottom: 5%;
+  color: #444;
+}
+.flexbox-parent .flex-item h1 {
+/*   margin-top: 0;
+  margin-bottom: 0; */
+  margin: 0 0; /* top/bottom = 0 right/left = 0 */
+/*   margin: 1em 3em 5em 0; -> top = 1em, right = 3em, bottom = 5em, left = 0*/
+}
+
+
 /*
 Media Query CSS - Responsive Control
 https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
@@ -125,22 +149,4 @@ https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
   .deckofCards .cardDIV {
     width: 100%;
   }
-}
-
-
-/* Flexbox parent/child */
-.flexbox-parent {
-  display: flex;
-  flex-flow: wrap;
-  justify-content: space-between;
-  background-color: pink;
-}
-.flexbox-parent .flex-item {
-  margin-bottom: 5%;
-}
-.flexbox-parent .flex-item h1 {
-/*   margin-top: 0;
-  margin-bottom: 0; */
-  margin: 0 0; /* top/bottom = 0 right/left = 0 */
-  margin: 1em 3em 5em 0; /*top = 1em, right = 3em, bottom = 5em, left = 0*/
 }

@@ -133,4 +133,14 @@ https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
+  background-color: pink;
+}
+.flexbox-parent .flex-item {
+  margin-bottom: 5%;
+}
+.flexbox-parent .flex-item h1 {
+/*   margin-top: 0;
+  margin-bottom: 0; */
+  margin: 0 0; /* top/bottom = 0 right/left = 0 */
+  margin: 1em 3em 5em 0; /*top = 1em, right = 3em, bottom = 5em, left = 0*/
 }

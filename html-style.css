@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: #444;
   font-family: "Montserrat Alternates", sans-serif;
@@ -40,10 +43,17 @@ header nav .menu a:hover {
   padding: 5% 0; /* top/bottom 5% right/left 0 */
   color: white;
   height: 100vh;
-  background-image: url("https://picsum.photos/id/1004/800");
+/*   background-image: url("https://picsum.photos/id/1004/800");
   background-repeat: no-repeat;
   background-size: cover;
-  background-positon: center;
+  background-positon: center; */
+}
+
+div {
+  background-color: yellow;
+}
+#content div {
+  background-color: purple;
 }
 
 /* Custom Row/Column */
@@ -123,7 +133,4 @@ https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-}
-div {
-  background-color: yellow;
 }

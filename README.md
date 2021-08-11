@@ -36,8 +36,9 @@ git push -u origin main
 
 ## Git Commands
 
-```
 …or create a new repository on the command line
+
+```
 echo "# csa-project-sample1" >> README.md
 git init
 git add README.md
@@ -45,7 +46,11 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/berryny/csa-project-sample1.git
 git push -u origin main
+```
+
 …or push an existing repository from the command line
+
+```
 git remote add origin https://github.com/berryny/csa-project-sample1.git
 git branch -M main
 git push -u origin main

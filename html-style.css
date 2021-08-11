@@ -8,6 +8,10 @@ html {
 body {
   color: #444;
   font-family: "Montserrat Alternates", sans-serif;
+  background-color: red;
+}
+.home {
+  background-color: orange;
 }
 a {
   text-decoration: none;
